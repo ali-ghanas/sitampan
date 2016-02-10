@@ -1,0 +1,25 @@
+/* 
+    Document   : latihanformat
+    Created on : 14 Apr 13, 10:12:29
+    Author     : Asus
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+body{font-family: verdana}
+#top{background-color: #ccc; padding: 1em}
+#top h3{ font-style: italic; }
+#top p{color:blue;font-size: 20px}
+#top p:hover{color:red;font-weight: bold;font-size: 20px}
+#top .intro{color:red;font-weight: bold}
+a:link{color:blue}
+a:visited{color:purple}
+a:activate{color:red}
+a:hover{text-decoration: none; color:green; background-color: yellow}

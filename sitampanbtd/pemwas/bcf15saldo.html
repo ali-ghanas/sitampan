@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>DataTable</title>
+<script type="text/javascript" 
+        src="lib/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" 
+        src="lib/js/dataTables/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" 
+      href="lib/js/dataTables/demo_table.css" />          
+<script type="text/javascript">
+   $(document).ready(function() {
+      $('#saldo').dataTable( {
+		"bProcessing": true,
+		"sAjaxSource": 'pemwas/bcf15saldo.php',
+		"iDisplayLength": 3, 
+		"oLanguage": {
+		   "sProcessing":   "<img src='images/new/loading.gif' />Sedang memproses...",
+           "sLengthMenu":   "Tampilkan _MENU_ entri",
+           "sZeroRecords":  "Tidak ditemukan data yang sesuai",
+           "sInfo":         "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri",
+           "sInfoEmpty":    "Menampilkan 0 sampai 0 dari 0 entri",
+           "sInfoFiltered": "(disaring dari _MAX_ entri keseluruhan)",
+           "sInfoPostFix":  "",
+           "sSearch":       "Pencarian <img src='images/new/cari.png' />:",
+           "sUrl":          "",
+              "oPaginate": {
+              "sFirst":    "Pertama",
+              "sPrevious": "Sebelumnya",
+              "sNext":     "Selanjutnya",
+              "sLast":     "Terakhir"
+           }
+        }   
+	  });
+   });
+</script>        
+</head>
+<body>
+    
+    <br/>
+<table cellpadding="0" cellspacing="0" 
+       border="0" class="display" id="saldo">
+   <thead>
+      <tr>
+         <th class="judulform">BCF 1.5</th>
+         <th class="judulform">Tanggal</th>
+         <th class="judulform">Ptahuan</th>
+         <th class="judulform">Tgl</th>
+         <th class="judulform">TPP</th>
+         <th class="judulform">Consignee</th>
+         <th class="judulform">Notify</th>
+         <th class="judulform">Lama penumpukan</th>
+         <th class="judulform">Status Akhir</th>
+         <th class="judulform">No Kep</th>
+         
+      </tr>
+   </thead>
+   <tfoot>
+      <tr>
+         <th class="judultabel">BCF 1.5</th>
+         <th class="judultabel">Tanggal</th>
+         <th class="judultabel">Ptahuan</th>
+         <th class="judultabel">Tgl</th>
+         <th class="judultabel">TPP</th>
+         <th class="judultabel">Consignee</th>
+         <th class="judultabel">Notify</th>
+         <th class="judultabel">Lama penumpukan</th>
+         <th class="judultabel">Status Akhir</th>
+         <th class="judultabel">No Kep</th>
+         
+      </tr>
+   </tfoot>
+</table>
+    
+    
+   
+</body>
+</html>

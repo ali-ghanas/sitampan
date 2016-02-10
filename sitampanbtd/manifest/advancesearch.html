@@ -1,0 +1,148 @@
+<?php
+include "lib/koneksi.php";
+session_start();
+if (empty($_SESSION['username']) AND empty($_SESSION['password']))
+{
+ header('location:index.php');
+ echo 'Admin : Mohon Login dulu.';
+ 
+}
+else
+{
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>ADVANCE SEARCH BCF 1.5</title>
+
+<script type="text/javascript" 
+        src="lib/js/dataTables/jquery.dataTables.js"></script>
+<link rel="stylesheet" type="text/css" 
+      href="lib/js/dataTables/demo_table.css" />          
+<script type="text/javascript">
+   $(document).ready(function() {
+      $('#daftar').dataTable( {
+                
+		"bProcessing": true,
+		"sAjaxSource": 'manifest/advancesearch.php',
+		"iDisplayLength": 10, 
+		"oLanguage": {
+		   "sProcessing":   "Sedang memproses...",
+           "sLengthMenu":   "Tampilkan _MENU_ entri",
+           "sZeroRecords":  "Tidak ditemukan data yang sesuai",
+           "sInfo":         "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri BCF15",
+           "sInfoEmpty":    "Menampilkan 0 sampai 0 dari 0 entri",
+           "sInfoFiltered": "(disaring dari _MAX_ entri keseluruhan)",
+           "sInfoPostFix":  "",
+           "sSearch":       "Cari BCF 15(semua field BCF 15):",
+           "sUrl":          "",
+              "oPaginate": {
+              "sFirst":    "Pertama",
+              "sPrevious": "Sebelumnya",
+              "sNext":     "Selanjutnya",
+              "sLast":     "Terakhir"
+              
+           }
+        }   
+	  });
+          
+          
+   });
+</script> 
+
+<script type="text/javascript">
+   $(document).ready(function() {
+      $('#daftar1').dataTable( {
+                
+		"bProcessing": true,
+		"sAjaxSource": 'manifest/advancesearch1.php',
+		"iDisplayLength": 10, 
+		"oLanguage": {
+		   "sProcessing":   "Sedang memproses...",
+           "sLengthMenu":   "Tampilkan _MENU_ entri",
+           "sZeroRecords":  "Tidak ditemukan data yang sesuai",
+           "sInfo":         "Menampilkan _START_ sampai _END_ dari _TOTAL_ entri Container",
+           "sInfoEmpty":    "Menampilkan 0 sampai 0 dari 0 entri",
+           "sInfoFiltered": "(disaring dari _MAX_ entri keseluruhan)",
+           "sInfoPostFix":  "",
+           "sSearch":       "Cari Container(semua field container):",
+           "sUrl":          "",
+              "oPaginate": {
+              "sFirst":    "Pertama",
+              "sPrevious": "Sebelumnya",
+              "sNext":     "Selanjutnya",
+              "sLast":     "Terakhir"
+              
+           }
+        }   
+	  });
+          
+          
+   });
+</script>
+
+</head>
+<body>
+    <?php session_start(); ?>
+    <div><strong ><font color="red">Pencarian BCF 15 </font></strong></div><br></br>
+<table cellpadding="0" cellspacing="0" 
+       border="0" class="display" id="daftar">
+    
+   <thead>
+      <tr>
+          <th width="10%">Tahun </th>
+         <th width="10%">No BCF 15 </th>
+         
+         <th width="10%">No BC 11 </th>
+         
+         <th width="10%">Pos</th>
+         <th width="10%">BL</th>
+         <th width="10%">Uraian Brg</th>
+         <th width="10%">Jml</th>
+         <th width="10%">Satuan</th>
+         <th width="10%">Consignee</th>
+         <th width="10%">Notify</th>
+         
+      </tr>
+   </thead>
+     
+   
+    
+</table>
+    <div><strong ><font color="red">Pencarian Container</font></strong></div><br></br>
+    <table cellpadding="0" cellspacing="0" 
+       border="0" class="display" id="daftar1">
+        
+   <thead>
+      <tr>
+          <th width="10%">Tahun </th>
+         <th width="10%">No BCF 15 </th>
+         
+         <th width="10%">Nocontainer </th>
+         
+         <th width="10%">Size</th>
+         
+         
+      </tr>
+   </thead>
+     
+   <tfoot>
+      <tr>
+          <th >Tahun </th>
+         <th >No BCF 15 </th>
+        
+         <th >Nocontainer </th>
+         
+         <th >Size</th>
+         
+      </tr>
+   </tfoot>
+    
+</table>
+    
+</body>
+</html>
+<?php
+};
+?>

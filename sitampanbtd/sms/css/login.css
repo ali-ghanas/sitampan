@@ -1,0 +1,25 @@
+body {
+	background: #cc0033 url('../images/background.png');
+	font-family: tahoma;
+	color: #fff;
+}
+
+#header {
+	background: #fff;
+	width: 300px;
+	margin: 0 auto;
+	color: #000;
+}
+
+#content {
+	padding-left: 20px;
+}
+
+td {
+	font-size: 12px;
+}
+
+#footer {
+	font-size: 10px;
+	padding-left: 10px;
+}

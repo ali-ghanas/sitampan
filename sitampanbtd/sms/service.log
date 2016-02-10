@@ -1,0 +1,81 @@
+These Windows services are started:
+
+   Apache2.2
+   Application Experience
+   Application Host Helper Service
+   Application Information
+   AVI Guard
+   Background Intelligent Transfer Service
+   Base Filtering Engine
+   Browser Configuration Utility Service
+   COM+ Event System
+   Cryptographic Services
+   DCOM Server Process Launcher
+   Desktop Window Manager Session Manager
+   DHCP Client
+   Diagnostic Policy Service
+   Diagnostic System Host
+   Distributed Link Tracking Client
+   Distributed Transaction Coordinator
+   DNS Client
+   Function Discovery Provider Host
+   Function Discovery Resource Publication
+   Gammu SMSD Service (GammuSMSD)
+   Group Policy Client
+   Human Interface Device Access
+   IIS Admin Service
+   IKE and AuthIP IPsec Keying Modules
+   Intel(R) Management & Security Application User Notification Service
+   Intel(R) Management and Security Application Local Management Service
+   IP Helper
+   IPsec Policy Agent
+   KtmRm for Distributed Transaction Coordinator
+   McAfee Engine Service
+   McAfee Framework Service
+   McAfee McShield
+   McAfee Task Manager
+   McAfee Validation Trust Protection Service
+   MemeoBackgroundService
+   Multimedia Class Scheduler
+   mysql
+   Network Connections
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   Plug and Play
+   Print Spooler
+   Remote Access Connection Manager
+   Remote Procedure Call (RPC)
+   Remote Registry
+   Secondary Logon
+   Secure Socket Tunneling Protocol Service
+   Security Accounts Manager
+   Server
+   Shell Hardware Detection
+   SL UI Notification Service
+   Software Licensing
+   SQL Server (SQLEXPRESS)
+   SQL Server VSS Writer
+   System Event Notification Service
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   TeamViewer 9
+   Telephony
+   Terminal Services
+   User Profile Service
+   WD Drive Manager Service
+   Windows Audio
+   Windows Audio Endpoint Builder
+   Windows Error Reporting Service
+   Windows Event Log
+   Windows Firewall
+   Windows Management Instrumentation
+   Windows Process Activation Service
+   Windows Remote Management (WS-Management)
+   Windows Time
+   Windows Update
+   Workstation
+   World Wide Web Publishing Service
+
+The command completed successfully.
+

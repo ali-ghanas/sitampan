@@ -62,7 +62,6 @@
             <option value="Pelayanan Pabean dan Cukai II" >Pelayanan Pabean dan Cukai II</option>
             <option value="Pelayanan Pabean dan Cukai III" >Pelayanan Pabean dan Cukai III</option>
             <option value="Penindakan dan Penyidikan" >Penindakan dan Penyidikan</option>
-            <option value="Perbendaharaan" >Perbendaharaan</option>
         </select></td></tr>
     <tr><td class="judulform">Kode Seksi </td><td class="judulform">:</td><td> <select class="required" id="kd_seksi" name="kd_seksi" value="<?php echo $_POST['kd_seksi']; ?> selected" id="jabatan">
             <option value="" >Kd_seksi</option>

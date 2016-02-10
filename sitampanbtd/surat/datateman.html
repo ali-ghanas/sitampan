@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Menambahkan/Menghapus Elemen Secara Dinamis</title>
+<script type="text/javascript" 
+        src="../lib/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript">
+   $(document).ready(function() {
+      // Sembunyikan tombol hapus
+      $(".tombol-hapus").hide();
+      
+      // Pasang kejadian click
+      $(".tombol-hapus").click(function(e){
+         var ortu = $(e.target).parent();
+         
+         ortu.remove(); 
+         return false;
+      });      
+         
+      var indeks = 2;
+      
+      $("#tombol-tambah").click(function(){        
+         var komponen = $("<p id='data-" + indeks + 
+                          "'><label>No COnt: </label>" +
+                          "<input name='nama[]' type='text' />" +
+                          "<label> Size : </label>" +                  
+                          "<input name='hobby[]' type='text' />" +
+                          " </p>");
+                          
+         komponen.insertBefore("#tombol-tambah");     
+         $(".tombol-hapus:first")
+            .clone(true)
+            .appendTo("#data-" + indeks)
+            .show();
+            
+         indeks = indeks + 1; // Naikkan pencacah data
+         return false;        // Menghindari submit
+      });
+   });
+</script>        
+</head>
+<body>
+   <form action="cekdata.php" method="post">
+      <p id="data-1">
+         <label>No COnt:</label> 
+         <input name="nama[]" type="text" />
+         <label>Size :</label> 
+         <input name="hobby[]" type="text" />
+         <button class='tombol-hapus'>Hapus</button>
+      </p>       
+      <button id="tombol-tambah">Tambah</button>
+      <input type="submit" value="Kirim" />
+   </form>   
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* CSS Document */
+
+#contact_form_holder { 
+    font-family: 'Verdana'; 
+    font-size: 12px; 
+    width:300px;
+}
+#contact_form_holder input, #contact_form_holder textarea { 
+    width:100%;  
+    font-family:inherit; 
+    font-size:12px; 
+    padding:5px;
+}
+#contact_form_holder textarea { 
+    height:100px;  
+}
+#kirim { 
+    width:100px !important;  
+    font-size: 12px;   
+    border:1px solid black; 
+    cursor:pointer;
+    cursor:hand;
+}
+#tombol_submit { text-align:right; } 
+
+.error { display: none; padding:10px; color: #D8000C; font-size:10px;background-color: #FFBABA;}
+.sukses { display: none; padding:10px; color: #044406; font-size:10px;background-color: #B7FBB9;}
+
+#logo { vertical-align: middle; }
+.error img { vertical-align:top; }

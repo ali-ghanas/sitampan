@@ -23,4 +23,20 @@ $data = mysql_fetch_array(mysql_query("SELECT * FROM pbk WHERE ID = '$_GET[ID]'"
 	include "koneksi/koneksi.php";
 	$sql = mysql_query("SELECT * FROM pbk_groups ORDER BY Name ASC");
 	while($datar = mysql_fetch_array($sql)){
-		i
+		if($datar[ID] == $data[GroupID]){
+			echo "<option value=$datar[ID] SELECTED>$datar[Name]</option>";
+		}
+		else{
+			echo "<option value=$datar[ID]>$datar[Name]</option>";
+		}
+	}
+	?>
+	</select></td>
+</tr>
+<tr>
+	<td><input type="submit" value="Simpan" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
