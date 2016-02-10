@@ -1,0 +1,50 @@
+ 
+/* CSS Document */
+
+ 
+
+ 
+
+#wrapper, #loginform {
+	margin:0 auto;
+	padding-bottom:25px;
+       
+	background:#EEEEEE;
+	width:630px;
+	border:1px solid #EEEEEE; }
+ 
+#loginform { padding-top:18px; }
+ 
+	#loginform p { margin: 5px; }
+ 
+#chatbox {
+        font-size: 9pt;
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+	padding:10px;
+	
+        background:url("body.jpg") ;
+	height:200px;
+	width:600px;
+	border:1px solid #EEEEEE;
+	overflow:auto; }
+ 
+#usermsg {
+	width:500px;
+        height:40;
+	border:1px solid #EEEEEE;
+        background:#fff;}
+ 
+#submit { width: 60px; }
+ 
+.error { color: #ff0000; }
+ 
+
+.welcome { font-size: 12pt;float:right; }
+ 
+.logout { float:right; }
+ 
+.msgln { margin:0 0 2px 0; }
+ 
+ 

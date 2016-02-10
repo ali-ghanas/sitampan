@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Farbtastic</title>
+
+<script type="text/javascript" src="page/colorpic/js/farbtastic.js"></script>
+<link rel="stylesheet" href="page/colorpic/css/farbtastic.css" type="text/css" />
+<script type="text/javascript">
+   $(document).ready(function() {
+      $("#colorpicker").farbtastic("#color");
+   });
+</script>        
+</head>
+<body>
+<div id="colorpicker"></div>
+<form>
+Warna: <input type="text" id="color" name="color" 
+             value="#123456" />
+</form>
+</body>
+</html>

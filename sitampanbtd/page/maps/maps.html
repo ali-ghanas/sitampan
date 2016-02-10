@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Google Maps</title>
+<script type="text/javascript" src="" ></script>
+<script type="text/javascript" src="page/maps/js/maps.js"></script>
+<script type="text/javascript" src="page/maps/js/jQuery.bMap.1.2.3.js"></script>
+<script type="text/javascript">
+   $(document).ready(function() {    
+      $("#map").bMap({
+	     mapZoom: 15,
+		 mapCenter:[-6.10872,106.920568],
+		 markers:{"data":[ {
+				"lat": -6.10872,
+				"lng": 106.920568, 
+				"title": "TPP Tripandu Pelita", 
+				"body": "Gudang TPP Tripandu Pelita"
+			},{
+				"lat":-6.149078,
+				"lng":106.930124, 
+				"title": "TPP MSA", 
+				"body": "Gudang TPP MSA"
+			},{
+                            
+				"lat":-6.102535,
+				"lng":106.951018, 
+				"title": "TPP Layanan Lancar Lintas Logistindo (L4)", 
+				"body": "Gudang TPP L4"
+			
+                        },{
+                                "lat":-6.103714,
+				"lng":106.947725, 
+				"title": "TPP Transcon Indonesia (L4)", 
+				"body": "Gudang TPP Transcon"
+                        }	
+		 ]}
+  	   });
+   });
+</script>  
+</head>
+<body>
+<div style="width:100%;height:500px;margin:0 auto" id="map"></div>
+</body>
+</html>

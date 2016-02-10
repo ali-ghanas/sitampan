@@ -1,0 +1,287 @@
+form {margin:0px;}
+title {}
+body {margin:0px;}
+td {font-family:Tahoma; font-size:11px;}
+div {font-family:Tahoma; font-size:11px;}
+input {font-family:Tahoma; font-size:11px; color:#60451e;}
+textarea {font-family:Tahoma; font-size:11px; color:#60451e;}
+select {font-family:Tahoma; font-size:11px; color:#60451e; cursor:pointer;}
+button {font-family:Tahoma; font-size:11px; color:#60451e; cursor:pointer;}
+img {border:0px;}
+a {color:#60451e; text-decoration:none; cursor:pointer;}
+a:visited {color:#60451e;}
+a:hover {color:#ba9a74;}
+iframe {margin:0px; border:none;}
+
+#divmaininfo {
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:17px;
+	border-top:1px solid #60451e;
+	background-color:#ffffdc;
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#60451e;
+	padding-top:3px;
+	padding-left:10px;
+}
+
+.clabgc {background-color:#ffffff;}
+.clathecolor {color:#60451e;}
+.cla2ndcolor {color:#ba9a74;}
+.clagreyline {background-color:#ddddba;}
+.clasoftback {background-color:#ffffdc;}
+
+.claall12 td {font-size:12px;}
+.claall12 div {font-size:12px;}
+.claall12 input {font-size:12px;}
+.claall12 textarea {font-size:12px;}
+.claall12 select {font-size:12px;}
+.claall12 button {font-size:12px;}
+
+.clabiggie {font-family:Tahoma; font-size:16px; font-weight:bold;}
+.clabiggie a {color:#60451e;}
+.clabiggie a:visited {color:#60451e;}
+.clabiggie a:hover {color:#60451e;}
+select.clabiggie {position:relative; left:-4px; border:none;}
+select.clabiggie:hover {color:#60451e;}
+
+.clanotsobig {font-family:Tahoma; font-size:14px; font-weight:bold; color:#000000;}
+.clanotsobig a {color:#000000;}
+.clanotsobig a:visited {color:#000000;}
+.clanotsobig a:hover {color:#60451e;}
+.clanotsobig li:hover span.clapilihsalahsatu { background:url(../slices/icopilihsalahsatu.gif) 0px 4px no-repeat; }
+.clanotsobig a.clanotsobiga {color:#60451e;}
+
+.clanormall {font-family:Tahoma; font-size:11px; font-weight:normal; color:#000000;}
+.clanormall a {color:#60451e;}
+.clanormall a:visited {color:#60451e;}
+.clanormall a:hover {color:#ba9a74;}
+
+.clalabeller {font-family:Tahoma; font-size:11px; font-weight:bold; color:#ffffff; position:relative; top:1px; line-height:1em;}
+.clalabeller a {color:#ffffff;}
+.clalabeller a:visited {color:#ffffff;}
+.clalabeller a:hover {color:#ba9a74;}
+
+.clanavigator {font-family:Tahoma; font-size:11px; color:#60451e; cursor:pointer;}
+.clanavigator a {font-weight:bold; color:#60451e;}
+.clanavigator a:visited {color:#60451e;}
+.clanavigator a:hover {color:#ba9a74;}
+.clanavigator div {font-weight:bold; color:#60451e;}
+.clanavigator div:hover {color:#ba9a74;}
+.clanavigator button {}
+.clanavigator input {border:1px inset #AC8244;}
+
+
+div.clatautnama {color:#60451e; cursor:pointer;}
+div.clatautnama:hover {color:#ba9a74;}
+div.clatautkembali {color:#60451e; cursor:pointer;}
+div.clatautkembali:hover {color:#ba9a74;}
+div.clatautubah {color:#60451e; padding:0px 3px 0px 17px; background:url(../slices/icotautubah1.jpg) 3px center no-repeat; cursor:pointer;}
+div.clatautubah:hover {color:#ba9a74; background:url(../slices/icotautubah2.jpg) 3px center no-repeat;}
+div.clatauthapus {color:#60451e; padding:0px 3px 0px 17px; background:url(../slices/icotauthapus1.jpg) 3px center no-repeat; cursor:pointer;}
+div.clatauthapus:hover {color:#ba9a74; background:url(../slices/icotauthapus2.jpg) 3px center no-repeat;}
+div.clatautekspor {color:#60451e; padding:0px 3px 0px 17px; background:url(../slices/icotautekspor1.jpg) 3px center no-repeat; cursor:pointer;}
+div.clatautekspor:hover {color:#ba9a74; background:url(../slices/icotautekspor2.jpg) 3px center no-repeat;}
+div.clatautunduh {color:#60451e; padding:0px 3px 0px 17px; background:url(../slices/icotautunduh1.jpg) 3px center no-repeat; cursor:pointer;}
+div.clatautunduh:hover {color:#ba9a74; background:url(../slices/icotautunduh2.jpg) 3px center no-repeat;}
+div.clatautidentifikasi {color:#60451e; padding:0px 3px 0px 17px; background:url(../slices/icotautkepala1.jpg) 3px center no-repeat; cursor:pointer;}
+div.clatautidentifikasi:hover {color:#ba9a74; background:url(../slices/icotautkepala2.jpg) 3px center no-repeat;}
+div.clatautcetak {color:#60451e; padding:0px 3px 0px 17px; background:url(../slices/icotautcetak1.jpg) 3px center no-repeat; cursor:pointer;}
+div.clatautcetak:hover {color:#ba9a74; background:url(../slices/icotautcetak2.jpg) 3px center no-repeat;}
+
+tr.clawithiceon td {overflow-x:hidden;}
+.clawithiceon:hover {background-color:#dec688;}
+.clawithiceon tr:hover {background-color:#dec688;}
+.clawithiceon td:hover {background-color:#dec688;}
+.clawithiceon tr div.clatautubah {visibility:hidden;}
+.clawithiceon tr:hover div.clatautubah {visibility:visible; background-color:#ffffff;}
+.clawithiceon tr div.clatauthapus {visibility:hidden;}
+.clawithiceon tr:hover div.clatauthapus {visibility:visible; background-color:#ffffff;}
+.clawithiceon tr div.clatautekspor {visibility:hidden;}
+.clawithiceon tr:hover div.clatautekspor {visibility:visible; background-color:#ffffff;}
+.clawithiceon tr div.clatautunduh {visibility:hidden;}
+.clawithiceon tr:hover div.clatautunduh {visibility:visible; background-color:#ffffff;}
+.clawithiceon tr div.clatautidentifikasi {visibility:hidden;}
+.clawithiceon tr:hover div.clatautidentifikasi {visibility:visible; background-color:#ffffff;}
+.clawithiceon tr div.clatautcetak {visibility:hidden;}
+.clawithiceon tr:hover div.clatautcetak {visibility:visible; background-color:#ffffff;}
+
+tr.clawithiceon:hover .clawithiceonganticolor {color:#60451e;}
+tr.clawithiceon div.claiconiquesurat {width:40px; height:55px; background:url(../slices/iconiquesurat1.png) 0px center no-repeat;}
+tr.clawithiceon:hover div.claiconiquesurat {background:url(../slices/iconiquesurat2.gif) 0px center no-repeat;}
+tr.clawithiceon td.clasoftback {background-color:#ffffdc;}
+tr.clawithiceon:hover td.clasoftback {background-color:#dec688;}
+
+
+.clawithsofton:hover {background-color:#ffffdc;}
+.clawithsofton tr:hover {background-color:#ffffdc;}
+.clawithsofton td:hover {background-color:#ffffdc;}
+
+td.bakclabutt { border-radius: 3px 3px 3px 3px; -moz-border-radius: 3px 3px 3px 3px; -khtml-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad; }
+
+td.clabutthasilcetak {width:90px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabutthasilcetak div {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobutthasilcetak1.jpg) 4px center no-repeat;}
+td.clabutthasilcetak:hover {border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabutthasilcetak:hover div {color:#ba9a74; background:url(../slices/icobutthasilcetak2.jpg) 4px center no-repeat;}
+
+td.clabuttbuatbaru {width:90px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabuttbuatbaru div {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobuttbuatbaru1.jpg) 4px center no-repeat;}
+td.clabuttbuatbaru:hover {border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabuttbuatbaru:hover div {color:#ba9a74; background:url(../slices/icobuttbuatbaru2.jpg) 4px center no-repeat;}
+
+td.clabuttcatatsurat {width:130px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabuttcatatsurat div {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobuttbuatbaru1.jpg) 4px center no-repeat;}
+td.clabuttcatatsurat:hover {border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabuttcatatsurat:hover div {color:#ba9a74; background:url(../slices/icobuttbuatbaru2.jpg) 4px center no-repeat;}
+
+td.clabuttkirimpesan {width:90px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabuttkirimpesan div {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobuttkirimpesan1.jpg) 4px center no-repeat;}
+td.clabuttkirimpesan:hover {border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabuttkirimpesan:hover div {color:#ba9a74; background:url(../slices/icobuttkirimpesan2.jpg) 4px center no-repeat;}
+
+td.clabuttvariabel {width:100px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabuttvariabel div {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobuttvariabel1.jpg) 4px center no-repeat;}
+td.clabuttvariabel:hover {border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabuttvariabel:hover div {color:#ba9a74; background:url(../slices/icobuttvariabel2.jpg) 4px center no-repeat;}
+
+td.clabuttpilihfitur {width:100px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabuttpilihfitur div {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobuttpilihfitur1.jpg) 4px center no-repeat;}
+td.clabuttpilihfitur select {width:99px; font-weight:bold; color:#60451e; padding-left:17px; border:none; background:url(../slices/icobuttpilihfitur1.jpg) 4px center no-repeat;}
+td.clabuttpilihfitur:hover {color:#ba9a74; border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabuttpilihfitur:hover div {color:#ba9a74; background:url(../slices/icobuttpilihfitur2.jpg) 4px center no-repeat;}
+td.clabuttpilihfitur:hover select{color:#ba9a74; background:url(../slices/icobuttpilihfitur2.jpg) 4px center no-repeat;}
+option.clabuttpilihfitur {font-weight:bold; color:#60451e;}
+option.clabuttekspor {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobuttekspor1.jpg) 2px center no-repeat;}
+option.clabuttekspor:hover {background:url(../slices/icobuttekspor2.jpg) 2px center no-repeat;}
+option.clabuttimpor {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobuttimpor1.jpg) 2px center no-repeat;}
+option.clabuttimpor:hover {background:url(../slices/icobuttimpor2.jpg) 2px center no-repeat;}
+
+td.clabutttampnormal {width:90px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabutttampnormal select {width:89px; font-weight:bold; color:#60451e; padding-left:17px; border:none; background:url(../slices/icobutttampnormal1.jpg) 4px center no-repeat;}
+td.clabutttampnormal:hover {color:#ba9a74; border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabutttampnormal:hover select{color:#ba9a74; background:url(../slices/icobutttampnormal2.jpg) 4px center no-repeat;}
+option.clabutttampnormal {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobutttampnormal1.jpg) 2px center no-repeat;}
+option.clabutttampnormal:hover {background:url(../slices/icobutttampnormal2.jpg) 2px center no-repeat;}
+td.clabutttampfoto {width:90px; height:20px; border:1px solid #60451e; cursor:pointer; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+td.clabutttampfoto select {width:89px; font-weight:bold; color:#60451e; padding-left:17px; border:none; background:url(../slices/icobutttampfoto1.jpg) 4px center no-repeat;}
+td.clabutttampfoto:hover {color:#ba9a74; border-color:#ba9a74; box-shadow: 2px 1px 0px #ffffff; -moz-box-shadow: 2px 1px 0px #ffffff; -webkit-box-shadow: 2px 1px 0px #ffffff;}
+td.clabutttampfoto:hover select{color:#ba9a74; background:url(../slices/icobutttampfoto2.jpg) 4px center no-repeat;}
+option.clabutttampfoto {font-weight:bold; color:#60451e; padding-left:20px; background:url(../slices/icobutttampfoto1.jpg) 2px center no-repeat;}
+option.clabutttampfoto:hover {background:url(../slices/icobutttampfoto2.jpg) 2px center no-repeat;}
+
+
+button.clabutttiny {width:60px;}
+button.clabuttshort {width:70px;}
+button.clabuttmedium {width:85px;}
+button.clabuttlong {width:110px;}
+button.clabuttlong span {color:#ba9a74;}
+button.clabuttverylong {width:240px;}
+.clabuttbig button {width:90px; height:30px;}
+button.clabuttprettyhigh {height:30px; width:90px}
+
+.bakclabuttfotopilih {position:absolute; top:0px; left:0px; z-index:-1; width:70px; height:20px; background-color:#ffffff; border:1px solid #60451e; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+.bakclabuttfotosimpan {width:70px; height:20px; background-color:#ffffff; border:1px solid #60451e; cursor:text; box-shadow: 2px 1px 0px #c8bdad; -moz-box-shadow: 2px 1px 0px #c8bdad; -webkit-box-shadow: 2px 1px 0px #c8bdad;}
+
+
+
+.claborderinset {font-family:Tahoma; font-size:11px;}
+.claborderinset input {border:1px inset #ac8244;}
+.claborderinset select {border:1px inset #ac8244;}
+
+.clainputan td {padding-top:4px; padding-bottom:4px; padding-right:10px; padding-left:10px;}
+.clainputan td.clatd {padding-top:4px; padding-bottom:4px; padding-right:0px; padding-left:0px;}
+.clainputan input {padding:2px; padding-left:5px; border-top:none; border-right:none; border-bottom:1px solid #ba9a74; border-left:none;}
+.clainputan input:focus {border:1px solid #ba9a74;}
+.clainputan input.clainput {padding:2px; padding-left:5px; border-top:none; border-right:none; border-bottom:1px solid #ba9a74; border-left:none; background:none;}
+.clainputan input.clainput:focus {}
+.clainputan select {padding:2px; border-top:none; border-right:none; border-bottom:1px solid #ba9a74; border-left:none;}
+.clainputan select:focus {border:1px solid #ba9a74;}
+.clainputan textarea {padding:2px; border-top:none; border-right:none; border-bottom:1px solid #ba9a74; border-left:none;}
+.clainputan textarea:focus {border:1px solid #ba9a74;}
+.clainputan div.cladiv {overflow-x:hidden; color:#60451e; padding:2px; padding-left:6px; border-bottom:1px solid #ba9a74;}
+.clainputan tr:hover {background-color:#dec688;}
+.clainputan tr:hover span.clahelptip {display:inline; position:absolute;}
+.clainputan span.clahelptip {display:none; color:#000000; width:200px; padding:10px 10px; margin-left:5px; z-index:100; background:#ffffdc; border:1px solid #ba9a74; filter:alpha(opacity=90); -moz-opacity:.90; opacity:.90;}
+.clainputan tr div.clatautubah {visibility:hidden;}
+.clainputan tr:hover div.clatautubah {visibility:visible; background-color:#ffffff;}
+.clainputan tr div.clatauthapus {visibility:hidden;}
+.clainputan tr:hover div.clatauthapus {visibility:visible; background-color:#ffffff;}
+.clainputan tr div.clatautidentifikasi {visibility:hidden;}
+.clainputan tr:hover div.clatautidentifikasi {visibility:visible; background-color:#ffffff;}
+.clainputan tr div.clatautunduh {visibility:hidden;}
+.clainputan tr:hover div.clatautunduh {visibility:visible; background-color:#ffffff;}
+.clainputan tr div.clatautcetak {visibility:hidden;}
+.clainputan tr:hover div.clatautcetak {visibility:visible; background-color:#ffffff;}
+
+.clatabelan span {color:#60451e;}
+.clatabelan tr.clajudul td {font-weight:bold; border-top:1px solid #ba9a74; border-bottom:1px solid #ba9a74; background-color:#ffffdc}
+.clatabelan tr.clatotal td {font-weight:bold; border-bottom:1px solid #ba9a74; background-color:#ffffdc}
+.clatabelan tr.clagaris td {height:1px; background-color:#ba9a74;}
+.clatabelan input {border:1px solid #ba9a74;}
+.clatabelan select {border:1px solid #ba9a74;}
+.clatabelan tr.clasorot:hover {background-color:#ffffdc;}
+.clatabelan tr.clasorot:hover span.clahelptip {display:inline; position:absolute;}
+.clatabelan span.clahelptip {display:none; color:#000000; width:200px; padding:10px 10px; margin-left:5px; z-index:100; background:#ffffdc; border:1px solid #ba9a74; filter:alpha(opacity=90); -moz-opacity:.90; opacity:.90;}
+.clatabelan tr.clasorot div.clatautubah {visibility:hidden;}
+.clatabelan tr.clasorot:hover div.clatautubah {visibility:visible; background-color:#ffffff;}
+.clatabelan tr.clasorot div.clatauthapus {visibility:hidden;}
+.clatabelan tr.clasorot:hover div.clatauthapus {visibility:visible; background-color:#ffffff;}
+.clatabelan tr div.clatautunduh {visibility:hidden;}
+.clatabelan tr:hover div.clatautunduh {visibility:visible; background-color:#ffffff;}
+
+
+
+
+table.clasembunyi button {visibility:hidden;}
+table.clasembunyi:hover button {visibility:visible;}
+table.clasembunyi div {visibility:hidden;}
+table.clasembunyi:hover div {visibility:visible;}
+
+td.clanopadding {padding:0px;}
+td.clanoborder {border:none;}
+tr.clanohover:hover {background-color:white;}
+
+div.clakotakkotak {font-weight:normal; cursor:pointer; border-radius: 3px 3px 3px 3px; -moz-border-radius: 3px 3px 3px 3px; -khtml-border-radius: 3px 3px 3px 3px; -webkit-border-radius: 3px 3px 3px 3px;}
+div.clakotakkotak:hover {background-color:#ffffff;}
+
+div.clatiptip {position:relative; cursor:pointer;}
+div.clatiptip span {display:none; color:#60451e; width:180px; padding:5px 5px; z-index:60; background:#ffffff; border:1px solid #ba9a74;}
+div.clatiptip:hover span {display:inline; position:absolute; top:-25px; left:-55px;}
+
+
+
+ul.clamenu {font-family:Tahoma; font-size:11px; font-weight:bold; list-style:none; margin:0; padding:0;}
+ul.clamenu .clamenuhover {color:#60451e; background-color:#ffffff;}
+ul.clamenu * {margin:0; padding:0;}
+ul.clamenu a {display:block; color:#ffffff; text-decoration:none;}
+ul.clamenu li {position:relative; float:left; margin-right:14px;}
+ul.clamenu .clamenulink {padding:5px 7px 5px 7px;}
+ul.clamenu .clamenulink:hover {}
+ul.clamenu ul {position:absolute; top:23px; left:0px; background:#ffffff; display:none; opacity:0; list-style:none;}
+ul.clamenu ul li {position:relative; min-width:170px; margin:0px; border-top:none; border-right:2px solid #60451e; border-bottom:none; border-left:1px solid #8f6427;}
+ul.clamenu ul li a {color:#60451e; display:block; padding:4px 0px 2px 5px;}
+ul.clamenu ul li a:hover {background-color:#dec688;}
+ul.clamenu ul ul {left:167px; top:3px;}
+ul.clamenu .clamenutext {position:relative; top:-8px; left:4px;}
+ul.clamenu .clamenuarrow {background:url(../slices/mnuarrow.gif) 160px 12px no-repeat;}
+
+ul.bakclamenu {font-family:Tahoma; font-size:12px; list-style:none; margin:0; padding:0;}
+ul.bakclamenu * {margin:0; padding:0;}
+ul.bakclamenu a {display:block; color:#000; text-decoration:none;}
+ul.bakclamenu li {position:relative; float:left; margin-right:2px;}
+ul.bakclamenu ul {position:absolute; top:26px; left:0; background:#d1d1d1; display:none; opacity:0; list-style:none;}
+ul.bakclamenu ul li {position:relative; border:1px solid #aaa; border-top:none; width:148px; height:25px; margin:0;}
+ul.bakclamenu ul li a {display:block; padding:3px 7px 5px; background-color:#d1d1d1;}
+ul.bakclamenu ul li a:hover {background-color:#c5c5c5;}
+ul.bakclamenu ul ul {left:148px; top:-1px;}
+ul.bakclamenu .clamenulink {border:1px solid #aaa; padding:5px 7px 7px; font-weight:bold; background:url(images/header.gif); width:80px;}
+ul.bakclamenu .clamenulink:hover {background:url(images/header_over.gif);}
+ul.bakclamenu .clamenuhover {background:url(images/header_over.gif);}
+ul.bakclamenu .clamenuarrow {background:#d1d1d1 url(images/mnuarrow.gif) 136px 8px no-repeat;}
+ul.bakclamenu .clamenubordertop {border-top:1px solid #aaa;}
+ul.bakclamenu .clamenuarrowbordertop {border-top:1px solid #aaa; background:#d1d1d1 url(images/mnuarrow.gif) 136px 8px no-repeat;}
+

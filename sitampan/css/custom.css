@@ -1,0 +1,205 @@
+
+/* ======================================================== pagination style ===================================================== */
+.pagin {
+padding: 0px;
+margin: 0;
+font-family: "Verdana", sans-serif;
+font-size: 8pt;
+}
+.pagin * {
+padding: 2px 5px;
+margin: 0;
+}
+.pagin a {
+border: solid 1px #0000FF;
+background-color: #333333;
+color: #0000FF;
+text-decoration: none;
+}
+.pagin a:visited {
+border: solid 1px #0000FF;
+background-color:#333333;
+color: #0000FF;
+text-decoration: none;
+}
+.pagin a:hover, .pagin a:active {
+border: solid 1px #CC0000;
+background-color: white;
+color: #CC0000;
+text-decoration: none;
+}
+.pagin span {
+cursor: default;
+border: solid 1px #CCCCCC;
+background-color: #F0F0F0;
+color: #B0B0B0;
+}
+.pagin span.current {
+border:solid 1px #000000;
+color:#000000;
+}/* ======================================================== pagination style ===================================================== */
+/*//Reusing bootstrap 3 panel CSS*/
+.panel {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}   
+
+.panel-primary {
+    border-color: #428BCA;
+}   
+
+.panel-primary > .panel-heading {
+    background-color: #428BCA;
+    border-color: #428BCA;
+    color: #FFFFFF;
+}   
+
+.panel-heading {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+}   
+
+.panel-title {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+}   
+
+.panel-body:before, .panel-body:after {
+    content: " ";
+    display: table;
+}   
+
+.panel-body:before, .panel-body:after {
+    content: " ";
+    display: table;
+}   
+
+.panel-body:after {
+    clear: both;
+}   
+
+.panel-body {
+    padding: 15px;
+}   
+
+.panel-footer {
+    background-color: #F5F5F5;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top: 1px solid #DDDDDD;
+    padding: 10px 15px;
+}
+
+/*//CSS from v3 snipp*/
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+
+/*tabel*/
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+/*table*/
+
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
+    
+    .login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+/* Blue Flat Button
+==================================================*/
+.btn-large{
+  position: relative;
+  vertical-align: center;
+  margin: 30px;
+  /*width: 100%;*/
+  height: 100x;
+  padding: 48px 48px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #62b1d0;
+  border: 0;
+  border-bottom: 3px solid #9FE8EF;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -3px #9FE8EF;
+  box-shadow: inset 0 -3px #9FE8EF;
+}
+.btn-large:active {
+  top: 2px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-large:hover {
+  background: #45E1E8;
+}

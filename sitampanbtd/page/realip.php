@@ -1,0 +1,1 @@
+<? if ( getenv(HTTP_X_FORWARDED_FOR) ) { echo "Anda mengakses dengan proxy server<br>"; echo "Real IP anda : <br>". $_SERVER['HTTP_X_FORWARDED_FOR'] ."<br>"; echo "Terkoneksi lewat engine : <br>". $_SERVER['HTTP_VIA'] ."<br>"; echo "Proxy IP : " . $_SERVER['REMOTE_ADDR']; } else { echo "Anda terkoneksi tanpa proxy<br>"; echo "Real IP anda : ". $_SERVER['REMOTE_ADDR']; } ?>
