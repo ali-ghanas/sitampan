@@ -48,7 +48,7 @@ window.close();
                             </table>
                             <table>
                                 <tr><td></td><td height="20"  colspan="5"></td></tr>
-                                <tr><td></td><td colspan="5">Yth. pejabat TPP <?php echo $bcf15['nm_tpp'] ?></td></tr><!-- 
+                                <tr><td></td><td colspan="5">Yth. Pejabat TPP <?php echo $bcf15['nm_tpp'] ?></td></tr><!-- 
                                 <tr><td></td><td colspan="5"></td></tr>
                                 <tr><td></td><td colspan="5"></td></tr> -->
                             </table>

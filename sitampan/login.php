@@ -22,7 +22,7 @@
     session_start();
         if (empty($_SESSION['username']) AND empty($_SESSION['password']))
         {
-            include 'notifikasiadminsiap.php';
+            // include 'notifikasiadminsiap.php';
     ?>
     
   <div class="container">  
