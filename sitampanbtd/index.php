@@ -25,29 +25,29 @@ else
     $now=time();
     
     $userid=$_SESSION['id'];
-    $ses=null;
+$ses=null;
 
-        if(!function_exists("freichatx_get_hash")){
-        function freichatx_get_hash($ses){
+if(!function_exists("freichatx_get_hash")){
+function freichatx_get_hash($ses){
 
-               if(is_file("C:/xampp/htdocs/sitampan/freichat/hardcode.php")){
+       if(is_file("/var/www/html/sitampan/sitampanbtd/freichat/hardcode.php")){
 
-                       require "C:/xampp/htdocs/sitampan/freichat/hardcode.php";
+               require "/var/www/html/sitampan/sitampanbtd/freichat/hardcode.php";
 
-                       $temp_id =  $ses . $uid;
+               $temp_id =  $ses . $uid;
 
-                       return md5($temp_id);
+               return md5($temp_id);
 
-               }
-               else
-               {
-                       echo "<script>alert('module freichatx says: hardcode.php file not
-        found!');</script>";
-               }
+       }
+       else
+       {
+               echo "<script>alert('module freichatx says: hardcode.php file not
+found!');</script>";
+       }
 
-               return 0;
-        }
-        }
+       return 0;
+}
+}
     if($userid)
 { 
     $ses = $userid; //tell freichat the userid of the current user
@@ -90,8 +90,8 @@ else {
     
 
 ?>
-        <script type="text/javascript" language="javascipt" src="http://192.168.39.35:8080/sitampan/freichat/client/main.php?id=<?php echo $ses;?>&xhash=<?php echo freichatx_get_hash($ses); ?>"></script>
-	<link rel="stylesheet" href="http://192.168.39.35:8080/sitampan/freichat/client/jquery/freichat_themes/freichatcss.php" type="text/css">
+<script type="text/javascript" language="javascipt" src="http://128.199.113.41/sitampan/sitampanbtd/freichat/client/main.php?id=<?php echo $ses;?>&xhash=<?php echo freichatx_get_hash($ses); ?>"></script>
+	<link rel="stylesheet" href="http://128.199.113.41/sitampan/sitampanbtd/freichat/client/jquery/freichat_themes/freichatcss.php" type="text/css">
 <!--===========================FreiChatX=======END=========================-->                
 <?php
 

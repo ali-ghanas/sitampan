@@ -76,7 +76,7 @@ window.close();
                                         </table></td></tr>
                                 <tr><td></td><td height="8" colspan="5"></td></tr>
                                 <tr><td align="left" valign="top" colspan="5" ><font size="3" ><p style="text-align: justify">Tembusan :</p></font></td></tr>
-                                <tr><td align="left" valign="top" >1.</td><td colspan="4"><font size="3" >Korlak TPS <?php echo $bcf15['idtps'] ?>.</font></td></tr>
+                                <tr><td align="left" valign="top" >1.</td><td colspan="4"><font size="3" >Korlap TPS <?php echo $bcf15['idtps'] ?>.</font></td></tr>
                                 <tr><td align="left" valign="top" >2.</td><td colspan="4"><font size="3" >Kepala Seksi Penindakan</font></td></tr>
                                 </table>
                         </form>
