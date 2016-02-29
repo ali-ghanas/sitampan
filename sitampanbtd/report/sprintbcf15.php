@@ -57,7 +57,7 @@ and open the template in the editor.
                                     <td colspan="5"><?php include 'report/headersurat_pre.html'; ?></td>
 
                                 </tr>
-                                <tr><td></td><td width="9%">Nomor</td><td width="1%">:</td><td width="50%">S-<?php echo $bcf15['suratperintahno'] ?><?php echo $bcf15['kd_tp2'] ?><?php echo $bcf15['tahun'] ?></td><td align="right"><?php echo tglindo($bcf15['suratperintahdate']) ?></td></tr>
+                                <tr><td></td><td width="9%">Nomor</td><td width="1%">:</td><td width="50%">PRINT-<?php echo $bcf15['suratperintahno'] ?><?php echo $bcf15['kd_tp2'] ?><?php echo $bcf15['tahun'] ?></td><td align="right"><?php echo tglindo($bcf15['suratperintahdate']) ?></td></tr>
                                 <tr><td></td><td width="9%">Sifat</td><td width="1%">:</td><td width="50%">Segera</td><td align="right"></td></tr>
                                 <tr><td></td><td width="9%">Lampiran</td><td width="1%">:</td><td width="50%">Satu Lembar</td><td align="right"></td></tr>
                                 <tr><td></td><td width="9%">Hal</td><td width="1%">:</td><td width="50%">Perintah Pemindahan Barang Yang Dinyatakan Tidak Dikuasai</td><td align="right"></td></tr>

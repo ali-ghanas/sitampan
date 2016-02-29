@@ -14,7 +14,7 @@ and open the template in the editor.
        include '../lib/koneksi.php';
        include '../lib/function.php';
 	$id = $_GET['id']; // menangkap id
-	$sql = "SELECT * FROM bcf15, seksi, manifest, tpp WHERE bcf15.idtpp=tpp.idtpp and bcf15.idseksi=seksi.idseksi and bcf15.idmanifest=manifest.idmanifest and idbcf15=$id "; // memanggil data dengan id yang ditangkap tadi
+	$sql = "SELECT * FROM bcf15, seksi, manifest, tpp, pelayaran WHERE bcf15.idtpp=tpp.idtpp and bcf15.idpelayaran=pelayaran.idpelayaran and bcf15.idseksi=seksi.idseksi and bcf15.idmanifest=manifest.idmanifest and idbcf15=$id "; // memanggil data dengan id yang ditangkap tadi
 	$query = mysql_query($sql);
 	$bcf15 = mysql_fetch_array($query);
 	
@@ -140,7 +140,8 @@ and open the template in the editor.
                      
                      <table border="0" width="90%">
                         <tr><td colspan="4">Tembusan :</td></tr>
-                        <tr><td align="left" width="4">1.</td><td align="left">Kepala Seksi Penindakan </td></tr>                         
+                        <tr><td align="left" width="4">1.</td><td align="left">Kepala Seksi Penindakan </td></tr>
+                        <tr><td align="left" width="4">2.</td><td align="left"><?php echo $bcf15['nm_pelayaran']; ?> </td></tr>                         
                      </table>
         
         
